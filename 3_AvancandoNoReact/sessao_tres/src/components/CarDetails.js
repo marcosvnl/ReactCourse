@@ -1,8 +1,8 @@
-const CarDetails = ({brand, km, color, newCar}) => {
+const CarDetails = ({id, brand, km, color, newCar}) => {
   return (
     <div>
         <h2>Detalhes do carro</h2>
-        <ul>
+        <ul key={id}>
             <li>Marca: { brand }</li>
             <li>KM:    { km }</li>
             <li>Cor:   { color }</li>

@@ -5,12 +5,24 @@ import ListRender from './components/ListRender';
 import ManageData from './components/ManegeData'
 import ShowUserName from './components/ShowUserName';
 import CarDetails from './components/CarDetails';
-import Cars from './mocks/Cars'
+import Fragment from './components/Fragment';
 import './App.css';
 
 function App() {
-  const name = 'Zéca Urubu'
+  //const name = 'Zéca Urubu'
   const [userName] = useState('Maria') 
+  const cars = [
+    {'id': 1, 'brand': 'Ford', 'km': 250000, 'color': 'Cinza Egypcio','newCar': false},
+    {'id': 2, 'brand': 'WV', 'km': 0, 'color': 'Preto', 'newCar': true},
+    {'id': 3, 'brand': 'Honda', 'km': 80000, 'color': 'Cinza', 'newCar': false},
+    {'id': 4, 'brand': 'Chevrollet', 'km': 0, 'color': 'Branco', 'newCar': true},
+    {'id': 5, 'brand': 'Mazda', 'km': 25000, 'color': 'Vermelho', 'newCar': false},
+    {'id': 6, 'brand': 'Nissan', 'km': 0, 'color': 'Azul', 'newCar': true},
+    {'id': 7, 'brand': 'Toyota', 'km': 253000, 'color': 'Prata', 'newCar': false},
+    {'id': 8, 'brand': 'BYD', 'km': 0, 'color': 'Preto', 'newCar': true},
+    {'id': 9, 'brand': 'Kia', 'km': 0, 'color': 'Laranja', 'newCar': true},
+    {'id': 10,'brand': 'Citroen', 'km': 20000, 'color': 'Cinza Chumbo', 'newCar': false},
+  ]
   return (
     <div className="App">
       <h1>Seção 3</h1>
@@ -26,6 +38,14 @@ function App() {
         <CarDetails brand = 'Ford' km = { 250000 } color = 'Cinza Egypsio' newCar = { false }/>
         {/*reaproveitando*/}
         <CarDetails brand = 'BYD' km = { 0 } color = 'Cinza Claro' newCar = { true }/>
+        {/*loop em array de objs*/}
+        {
+          cars.map((car) => (
+            <CarDetails key={car.id} id = {car.id} brand = {car.brand} km = {car.km} color = {car.color} newCar = {car.newCar}/>
+          ))
+        }
+        {/*Frafment === tag vazia*/}
+        <Fragment />
       </div>
     </div>
   );
