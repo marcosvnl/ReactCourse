@@ -3,15 +3,15 @@ import React from 'react'
 const Fragment = () => {
   return (
     <>
-        <section>
+        <div>
             <h3>Tenhos essa tag</h3>
-        </section>
-        <body>
+        </div>
+        <div>
             <strong>Esse corpinho</strong>
-        </body>
-        <footer>
+        </div>
+        <div>
             <p>E aqui esta o pezinho kkkkkk</p>
-        </footer>
+        </div>
     </>
   )
 }

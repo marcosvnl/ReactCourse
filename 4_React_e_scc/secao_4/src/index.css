@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica';
+  padding-bottom: 500px;
+  background: radial-gradient(#0ea7b5, #055360);
+}
+
+h1{
+  color: whitesmoke;
+}
+
+.linha { 
+  margin: 10px 0;
+  height: 2px;
+  background: black;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+.green-title{
+  color: green;
+  background-color: whitesmoke;
+}
+
+.red-title{
+  color: 'red';
+  background-color: antiquewhite;
+}
