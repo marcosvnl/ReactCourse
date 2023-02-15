@@ -1,0 +1,32 @@
+form{
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2em;
+    background-color: #a1a1;
+    border: 1px solid  coral;
+    border-radius: 1em;
+}
+
+form, span{
+    color: orange
+}
+
+input, textarea, select{
+    display: block;
+    margin-top: 1em;
+}
+
+.butao{
+    padding: 1em 3em;
+    color: coral;
+    font-size: 1em;
+    border: 1px solid coral;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.butao :hover{
+ color: white;
+ background-color: coral;
+}
