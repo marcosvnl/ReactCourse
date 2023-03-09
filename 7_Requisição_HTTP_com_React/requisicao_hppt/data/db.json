@@ -1,19 +1,34 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Camisa",
-            "price": 59.9
-        },
-        {
-            "id": 2,
-            "name": "Calçe vermelha",
-            "price": 90
-        },
-        {
-            "id": 3,
-            "name": "Boné aba reta",
-            "price": 29.9
-        }
-    ]
+  "products": [
+    {
+      "id": 2,
+      "name": "Calçe vermelha",
+      "price": 90
+    },
+    {
+      "name": "teste",
+      "price": "12",
+      "id": 4
+    },
+    {
+      "name": "Tênis",
+      "price": "300",
+      "id": 6
+    },
+    {
+      "name": "Camiseta nova",
+      "price": "150",
+      "id": 7
+    },
+    {
+      "name": "Disco do massacation",
+      "price": "150",
+      "id": 8
+    },
+    {
+      "name": "testando loading",
+      "price": "89",
+      "id": 13
+    }
+  ]
 }
