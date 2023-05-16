@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+          "id": 2,
+          "name": "Calça vermelha",
+          "price": 90
+        },
+        {
+          "name": "teste",
+          "price": "12",
+          "id": 4
+        },
+        {
+          "name": "Tênis",
+          "price": "300",
+          "id": 6
+        }
+    ]
+}
