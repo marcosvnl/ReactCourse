@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    margin: 0 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+    background-color: #FFF;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+nav a:hover{
+    color: #CCC;
+    border: 1px solid #CCC;
+}
+
+.active{
+    background-color: #000;
+    color: aqua;
+    border: 1px solid aqua;
+}
